@@ -2,24 +2,60 @@ body {
   background: black;
   color: white;
   font-family: 'Fira Sans', sans-serif;
+  padding: 50px 0 0 0;
 }
 
 nav.navbar.navbar-inverse.navbar-fixed-top {
-    background: #333;
+  background: #333;
+}
+
+.hero {
+  max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.row {
+  margin: 0;
+}
+a {
+    color: firebrick;
+}
+
+hr {
+    border-color: firebrick;
 }
 
 p {
   text-align: justify;
+  font-size: 14px;
+  line-height: 25px;
 }
 
-
-h2 {
+h2, h3, h4 {
+  font-family: 'Source Code Pro', monospace;
   text-align: center;
+  text-transform: uppercase;
 }
+
+.showsList .col-md-2 {
+  font-family: 'Source Code Pro', monospace;
+  text-align: right;
+}
+
+.showsList {
+  font-size: 16px;
+  line-height: 48px;
+}
+.showsList .col-md-6 {
+    text-align: right;
+}
+
 .discografia .disco {
   margin: 40px 40px 50px 40px;
 }
-.discografia .disco p:first-child{
+
+.discografia .disco p:first-child {
   margin-top: 20px;
 }
 
@@ -28,13 +64,33 @@ h2 {
   width: 200px;
   height: 200px;
   float: right;
+  background: #ccc;
 }
 
+img.fotoChange:hover,
+img.videoChange:hover {
+  opacity: 1;
+}
+
+img.fotoChange,
 img.videoChange {
+  max-width: 100%;
+  height: 93px;
+  margin: 20px 5px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.mainFoto img {
+  width: 100%;
+}
+
+.mainFoto  {
     max-width: 100%;
-    height: 93px;
-    margin: 20px 5px;
-    cursor: pointer;
+    margin: auto;
+    display: block;
+    height: 500px;
+    max-height: 80%;
 }
 
 .visiteYoutube a {
@@ -48,13 +104,73 @@ img.videoChange {
   width: 200px;
 }
 
+iframe#mainVideoPlayer {
+  max-width: 100%;
+}
+
+section#contato p {
+    text-align: center;
+    font-size: 15px;
+    margin: 30px 0 0 0;
+}
+
+footer nav {
+    width: 170px;
+    margin: auto;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    background: firebrick;
+    padding: 35px 0 10px;
+    margin: 50px 0 0;
+}
+
+footer p {
+    text-align: center;
+    margin: 15px;
+}
+
+footer svg {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin: 5px;
+}
+
+
+@media (max-width: 991px) {
+  .showsList .col-md-6 {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  .showsList {
+    text-align: center;
+  }
+  .row.fotosList .col-md-2, .row.videosList .col-md-2 {
+    float: left;
+    padding: 0;
+  }
+  .discografia .disco img {
+    float: none;
+    display: block;
+    margin: auto;
+    background: #ccc;
+  }
+
+  .mainFoto  {
+    height: auto;
+  }
+}
+
 @media (min-width: 768px) {
   ul.nav.navbar-nav.centered {
-      float: none !important;
-      margin: auto;
-      display: inline-block;
+    float: none !important;
+    margin: auto;
+    display: inline-block;
   }
   .collapse.navbar-collapse {
-      text-align: center;
+    text-align: center;
   }
 }

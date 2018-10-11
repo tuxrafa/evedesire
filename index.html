@@ -15,13 +15,7 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-      body {
-        padding-top: 50px;
-        padding-bottom: 20px;
-      }
-    </style>
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Fira+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -47,13 +41,12 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav centered">
-            <li><a href="sobre">Sobre</a></li>
-            <li><a href="discografia">Discografia</a></li>
-            <li><a href="videos">Videos</a></li>
-            <li><a class="banda" href="#"><img src="" alt="Eve Desire"></a> </li>
-            <li><a href="fotos">Fotos</a></li>
-            <li><a href="agenda">Agenda</a></li>
-            <li><a href="contato">Contato</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#discografia">Discografia</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -61,33 +54,32 @@
       <!-- /.container-fluid -->
     </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron hero">
-
-    </div>
+    <img src="img/quantica-cover.jpg" alt="QUANTICA COMING SOON" class="hero">
 
     <div class="container">
       <!-- Example row of columns -->
-      <div class="row sobre">
+      <section id="sobre" class="row sobre">
         <div class="col-md-2"></div>
         <div class="col-md-8">
           <h2>Sobre</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 
         </div>
-      </div>
+      </section>
 
       <hr>
 
-      <div class="row discografia">
+      <section id="discografia" class="row discografia">
         <div class="col-md-12">
           <h2>Discografia</h2>
           <div class="row disco">
             <div class="col-sm-12 col-md-4">
-              <img src="" alt="">
+              <img src="img/quantica.jpg" alt="Quantica">
             </div>
 
             <div class="col-sm-12 col-md-8">
@@ -99,7 +91,7 @@
 
           <div class="row disco">
             <div class="col-sm-12 col-md-4">
-              <img src="" alt="">
+              <img src="img/vitruvia.jpg" alt="Vitruvia">
             </div>
 
             <div class="col-sm-12 col-md-8">
@@ -109,11 +101,11 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <hr>
 
-      <div class="row videos">
+      <section id="videos" class="row videos">
         <div class="col-md-12">
           <iframe id="mainVideoPlayer" style="display: block; margin:0 auto;" width="900" height="506" src="https://www.youtube.com/embed/bdzRr4V3wY4?rel=0&amp;controls=1&modestbrand=1&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
@@ -140,25 +132,148 @@
         </div>
         <div class="row visiteYoutube">
           <div class="col-md-12">
-            <a href="https://www.youtube.com/user/evedesiresinfonica"> Visite nosso Youtube</a>
+            <a href="https://www.youtube.com/user/evedesiresinfonica" target="_blank"> Visite nosso Youtube</a>
           </div>
         </div>
-      </div>
+      </section>
 
       <hr>
 
-      <footer>
-        <p>&copy; Eve Desire 2018</p>
-      </footer>
+      <section id="fotos" class="row fotos">
+        <div class="col-md-12 mainFoto">
+          <img src="img/video1.png" id="mainFoto">
+        </div>
+
+        <div class="row fotosList">
+          <div class="col-md-2">
+            <img src="img/video1.png" alt="" class="fotoChange">
+          </div>
+          <div class="col-md-2">
+            <img src="img/video2.png" alt="" class="fotoChange">
+          </div>
+          <div class="col-md-2">
+            <img src="img/video3.png" alt="" class="fotoChange">
+          </div>
+          <div class="col-md-2">
+            <img src="img/video5.png" alt="" class="fotoChange">
+          </div>
+          <div class="col-md-2">
+            <img src="img/video6.png" alt="" class="fotoChange">
+          </div>
+          <div class="col-md-2">
+            <img src="img/video7.png" alt="" class="fotoChange">
+          </div>
+        </div>
+        <div class="row visiteYoutube">
+          <div class="col-md-12">
+            <a href="https://www.facebook.com/EveDesire/" target="_blank"> Visite nosso Facebook</a>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+
+      <section id="agenda" class="row agenda">
+        <div class="col-md-12">
+          <h2>Próximos shows</h2>
+          <h3>2018</h3>
+        </div>
+
+        <div class="row showsList">
+          <div class="col-md-3">
+            25/Nov - 20h
+          </div>
+          <div class="col-md-3">
+            São Paulo, SP
+          </div>
+          <div class="col-md-6">
+            Manifesto Bar - Rua Iguatemi, nº 36C
+          </div>
+
+          <div class="col-md-3">
+            25/Nov - 20h
+          </div>
+          <div class="col-md-3">
+            São Paulo, SP
+          </div>
+          <div class="col-md-6">
+            Manifesto Bar - Rua Iguatemi, nº 36C
+          </div>
+
+
+        </div>
+      </section>
+
+      <hr>
+
+      <section id="contato" class="row contato">
+        <p>
+          Entre em contato através do e-mail: <br>
+          <a href="mailto:contato@evedesire.com">contato@evedesire.com</a> <br><br>
+          Ou acesse nossas redes sociais.
+        </p>
+      </section>
     </div>
     <!-- /container -->
+
+    <footer>
+      <nav class="sqs-svg-icon--list">
+        <a href="https://www.youtube.com/user/evedesiresinfonica" target="_blank" class="sqs-svg-icon--wrapper youtube">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 508.52 508.52" style="enable-background:new 0 0 508.52 508.52;" xml:space="preserve">
+                  <g>
+                  	<g>
+                  		<g>
+                  			<g>
+                  				<path style="fill: rgb(255, 255, 255);" d="M413.172,0H95.347C42.684,0,0,42.684,0,95.347v317.825c0,52.664,42.684,95.347,95.347,95.347      h317.825c52.664,0,95.347-42.684,95.347-95.347V95.347C508.52,42.684,465.836,0,413.172,0z M410.471,311.182      c-1.716,21.167-17.798,48.182-40.268,52.091c-71.987,5.594-157.292,4.895-231.853,0c-23.265-2.924-38.552-30.956-40.268-52.091      c-3.623-44.432-3.623-69.731,0-114.163c1.716-21.135,17.385-49.009,40.268-51.551c73.704-6.198,159.485-4.863,231.853,0      c25.871,0.953,38.552,27.619,40.268,48.786C414.03,238.686,414.03,266.75,410.471,311.182z"></path>
+                  				<polygon style="fill: rgb(255, 255, 255);" points="222.477,317.825 317.825,254.26 222.477,190.695     "></polygon>
+                  			</g>
+                  		</g>
+                  	</g>
+                  </g>
+                  </svg>
+          </div>
+        </a>
+        <a href="http://www.facebook.com/EveDesire" target="_blank" class="sqs-svg-icon--wrapper facebook">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="90px" height="90px" viewBox="0 0 90 90" style="enable-background:new 0 0 90 90;" xml:space="preserve">
+                  <g>
+                  	<path id="Facebook__x28_alt_x29_" d="M90,15.001C90,7.119,82.884,0,75,0H15C7.116,0,0,7.119,0,15.001v59.998   C0,82.881,7.116,90,15.001,90H45V56H34V41h11v-5.844C45,25.077,52.568,16,61.875,16H74v15H61.875C60.548,31,59,32.611,59,35.024V41   h15v15H59v34h16c7.884,0,15-7.119,15-15.001V15.001z" style="fill: rgb(255, 255, 255);"></path>
+                  </g>
+                  </svg>
+          </div>
+        </a>
+        <a href="http://instagram.com/evedesireband" target="_blank" class="sqs-svg-icon--wrapper instagram">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="97.395px" height="97.395px" viewBox="0 0 97.395 97.395" style="enable-background:new 0 0 97.395 97.395;" xml:space="preserve">
+                  <g>
+                  	<path d="M12.501,0h72.393c6.875,0,12.5,5.09,12.5,12.5v72.395c0,7.41-5.625,12.5-12.5,12.5H12.501C5.624,97.395,0,92.305,0,84.895   V12.5C0,5.09,5.624,0,12.501,0L12.501,0z M70.948,10.821c-2.412,0-4.383,1.972-4.383,4.385v10.495c0,2.412,1.971,4.385,4.383,4.385   h11.008c2.412,0,4.385-1.973,4.385-4.385V15.206c0-2.413-1.973-4.385-4.385-4.385H70.948L70.948,10.821z M86.387,41.188h-8.572   c0.811,2.648,1.25,5.453,1.25,8.355c0,16.2-13.556,29.332-30.275,29.332c-16.718,0-30.272-13.132-30.272-29.332   c0-2.904,0.438-5.708,1.25-8.355h-8.945v41.141c0,2.129,1.742,3.872,3.872,3.872h67.822c2.13,0,3.872-1.742,3.872-3.872V41.188   H86.387z M48.789,29.533c-10.802,0-19.56,8.485-19.56,18.953c0,10.468,8.758,18.953,19.56,18.953   c10.803,0,19.562-8.485,19.562-18.953C68.351,38.018,59.593,29.533,48.789,29.533z" style="fill: rgb(255, 255, 255);"></path>
+                  </g>
+                  </svg>
+          </div>
+        </a>
+        <a href="http://spotify.com/evedesireband" target="_blank" class="sqs-svg-icon--wrapper instagram">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 508.52 508.52" style="enable-background:new 0 0 508.52 508.52;" xml:space="preserve">
+              <g>
+                <g>
+                  <g>
+                    <path style="fill: rgb(255, 255, 255);" d="M254.26,0C113.845,0,0,113.845,0,254.26s113.845,254.26,254.26,254.26     s254.26-113.845,254.26-254.26S394.675,0,254.26,0z M371.696,403.288c-3.178,5.816-9.122,9.058-15.287,9.058     c-2.86,0-5.721-0.667-8.422-2.129c-40.713-22.438-86.957-34.293-133.677-34.293c-28,0-55.651,4.163-82.126,12.363     c-9.217,2.86-19.006-2.288-21.835-11.537c-2.86-9.185,2.288-28.7,11.537-31.592c29.844-9.249,60.959-13.921,92.455-13.921     c52.568,0,104.66,13.349,150.522,38.616C373.317,374.461,376.4,394.866,371.696,403.288z M404.019,307.527     c-3.623,7.024-10.742,18.338-18.084,18.338c-3.21,0-6.388-0.699-9.376-2.32c-50.471-26.189-105.041-39.474-162.218-39.474     c-31.496,0-62.77,4.132-92.964,12.459c-10.901,2.956-22.089-3.401-25.045-14.302c-2.924-10.901,3.464-29.431,14.334-32.386     c33.689-9.185,68.587-13.857,103.674-13.857c62.898,0,125.445,15.256,180.938,44.114     C405.29,285.248,409.199,297.516,404.019,307.527z M417.526,230.836c-3.464,0-7.024-0.795-10.361-2.447     c-60.228-30.034-125.096-45.226-192.761-45.226c-35.279,0-70.43,4.291-104.533,12.713c-12.522,3.083-25.14-4.513-28.223-17.004     c-3.115-12.459,4.513-27.555,17.004-30.638c37.726-9.376,76.659-14.111,115.72-14.111c74.975,0,146.867,16.877,213.578,50.121     c11.537,5.753,16.241,19.737,10.488,31.242C434.308,223.653,426.108,230.836,417.526,230.836z"></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </a>
+      </nav>
+      <br style="clear:both">
+      <p>&copy; Eve Desire 2018</p>
+    </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
       window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
     </script>
-
     <script src="js/vendor/bootstrap.min.js"></script>
-
     <script src="js/main.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
