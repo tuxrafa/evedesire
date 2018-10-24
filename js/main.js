@@ -5,8 +5,9 @@ function trocaVideo(obj) {
   $('#mainVideoPlayer').attr('src',url);
 }
 
-$(".fotoChange").click(function() {trocaFoto(this)});
-function trocaFoto(obj) {
-  url = obj.src;
-  $('#mainFoto').attr('src',url);
-}
+$(".albery-container").albery({
+  speed: 500,
+  imgWidth: 700,
+  paginationBorder: 5,
+  paginationItemWidth: 116
+});

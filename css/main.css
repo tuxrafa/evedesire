@@ -1,91 +1,150 @@
 body {
-  background: black;
-  color: white;
-  font-family: 'Fira Sans', sans-serif;
-  padding: 50px 0 0 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #100806;
+    color: white;
+    padding: 50px 0 0 0;
+    font-family: 'Source Code Pro', monospace;
 }
 
 nav.navbar.navbar-inverse.navbar-fixed-top {
-  background: #333;
+    background: #100806;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+img.logo {
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+.navbar-nav>li>a:hover {
+    color: rgba(255, 255, 255) !important;
 }
 
 .hero {
-  max-width: 100%;
-    margin: auto;
+    width: 100%;
+    margin: 0 auto 100px;
     display: block;
 }
 
 .row {
-  margin: 0;
+    margin: 0;
 }
+
+section#letra {
+    padding-top: 100px;
+}
+
 a {
-    color: firebrick;
+    color: #ffffffe9;
+    transition: 0.1s all linear;
+}
+
+a:hover, a:focus {
+    color: #fff;
+    text-decoration: underline;
 }
 
 hr {
-    border-color: firebrick;
+    border-color: transparent;
+    margin: 70px 0;
 }
 
 p {
-  text-align: justify;
-  font-size: 14px;
-  line-height: 25px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.4px;
 }
 
 h2, h3, h4 {
-  font-family: 'Source Code Pro', monospace;
-  text-align: center;
-  text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.letra h2,
+.letra h3 {
+  text-align: left;
+  font-size: 38px;
+}
+
+
+.letra p {
+line-height: 30px;
 }
 
 .showsList .col-md-2 {
-  font-family: 'Source Code Pro', monospace;
-  text-align: right;
+    font-family: 'Source Code Pro', monospace;
+    text-align: left;
 }
 
 .showsList {
-  font-size: 16px;
-  line-height: 48px;
+    font-size: 16px;
+    line-height: 48px;
 }
+
 .showsList .col-md-6 {
     text-align: right;
 }
 
 .discografia .disco {
-  margin: 40px 40px 50px 40px;
+    margin: 40px 40px 60px 40px;
 }
 
 .discografia .disco p:first-child {
-  margin-top: 20px;
+    margin-top: 20px;
+}
+
+.disco h2 {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.disco p {
+    line-height: 1.75em;
+    margin: 16px 0;
 }
 
 .discografia .disco img {
-  border: 1px solid #333;
-  width: 200px;
-  height: 200px;
-  float: right;
-  background: #ccc;
+    border: 1px solid #333;
+    width: 400px;
+    height: 400px;
+    float: right;
+    background: #ccc;
 }
 
-img.fotoChange:hover,
-img.videoChange:hover {
-  opacity: 1;
+img.fotoChange:hover, img.videoChange:hover {
+    opacity: 1;
 }
 
-img.fotoChange,
-img.videoChange {
-  max-width: 100%;
-  height: 93px;
-  margin: 20px 5px;
-  cursor: pointer;
-  opacity: 0.6;
+img.fotoChange, img.videoChange {
+    width: 100%;
+    margin: 20px 5px;
+    cursor: pointer;
+    opacity: 0.6;
+    max-width: 22vw;
+    float: left;
 }
 
 .mainFoto img {
-  width: 100%;
+    width: 100%;
 }
 
-.mainFoto  {
+.mainFoto {
     max-width: 100%;
     margin: auto;
     display: block;
@@ -94,23 +153,38 @@ img.videoChange {
 }
 
 .visiteYoutube a {
-  color: white;
-  text-align: center;
-  border: 1px solid White;
-  padding: 5px 10px;
-  margin: 5px auto;
-  display: block;
-  white-space: nowrap;
-  width: 200px;
+    color: rgba(255,255,255,.9);
+    text-align: center;
+    border: 2px solid White;
+    padding: 5px 10px;
+    margin: 5px auto;
+    display: table;
+    white-space: nowrap;
+    width: auto;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 16px;
+    padding-bottom: 13px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 13px;
+}
+
+.visiteYoutube a:hover {
+    background-color: rgba(255,255,255,.91);
+    color: #1d1d1d;
+    text-decoration: none;
 }
 
 iframe#mainVideoPlayer {
-  max-width: 100%;
+    width: 100%;
 }
 
 section#contato p {
     text-align: center;
-    font-size: 15px;
     margin: 30px 0 0 0;
 }
 
@@ -122,9 +196,9 @@ footer nav {
 
 footer {
     text-align: center;
-    background: firebrick;
-    padding: 35px 0 10px;
-    margin: 50px 0 0;
+    background: #531705;
+    padding: 90px 0 60px;
+    margin: 80px 0 0;
 }
 
 footer p {
@@ -139,38 +213,58 @@ footer svg {
     margin: 5px;
 }
 
-
 @media (max-width: 991px) {
-  .showsList .col-md-6 {
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 20px;
-  }
-  .showsList {
-    text-align: center;
-  }
-  .row.fotosList .col-md-2, .row.videosList .col-md-2 {
-    float: left;
-    padding: 0;
-  }
-  .discografia .disco img {
-    float: none;
-    display: block;
-    margin: auto;
-    background: #ccc;
-  }
+    .showsList .col-md-6 {
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
 
-  .mainFoto  {
-    height: auto;
-  }
+    .showsList {
+        text-align: center;
+    }
+
+    .row.fotosList .col-md-2, .row.videosList .col-md-2 {
+        float: left;
+        padding: 0;
+    }
+
+    .discografia .disco img {
+        float: none;
+        display: block;
+        margin: auto;
+        background: #ccc;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .mainFoto {
+        height: auto;
+    }
 }
 
 @media (min-width: 768px) {
-  ul.nav.navbar-nav.centered {
-    float: none !important;
-    margin: auto;
-    display: inline-block;
-  }
-  .collapse.navbar-collapse {
-    text-align: center;
-  }
+    ul.nav.navbar-nav.centered {
+        float: none !important;
+        margin: auto;
+        display: inline-block;
+    }
+
+    .collapse.navbar-collapse {
+        text-align: center;
+    }
+}
+
+
+.albery-container, .pagination-container {
+    max-width: 100% !important;
+}
+
+.discografia .disco {
+    margin: 40px auto;
+}
+blockquote {
+    margin: 0;
+    padding: .5em 2.5em;
+    font-style: italic;
+    border-left: 1px solid #fff;
 }
