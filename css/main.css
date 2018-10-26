@@ -1,270 +1,267 @@
 body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background: #100806;
-    color: white;
-    padding: 50px 0 0 0;
-    font-family: 'Source Code Pro', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #100806;
+  color: white;
+  padding: 50px 0 0 0;
+  font-family: 'Source Code Pro', monospace;
 }
 
 nav.navbar.navbar-inverse.navbar-fixed-top {
-    background: #100806;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  background: #100806;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .navbar-nav>li>a {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    color: rgba(255, 255, 255, 0.8) !important;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 img.logo {
-    margin-top: -15px;
-    margin-bottom: -15px;
+  margin-top: -15px;
+  margin-bottom: -15px;
 }
 
 .navbar-nav>li>a:hover {
-    color: rgba(255, 255, 255) !important;
+  color: rgba(255, 255, 255) !important;
 }
 
 .hero {
-    width: 100%;
-    margin: 0 auto 100px;
-    display: block;
+  width: 100%;
+  margin: 0 auto 100px;
+  display: block;
 }
 
 .row {
-    margin: 0;
+  margin: 0;
 }
 
 section#letra {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 a {
-    color: #ffffffe9;
-    transition: 0.1s all linear;
+  color: #ffffffe9;
+  transition: 0.1s all linear;
 }
 
 a:hover, a:focus {
-    color: #fff;
-    text-decoration: underline;
+  color: #fff;
+  text-decoration: underline;
 }
 
 hr {
-    border-color: transparent;
-    margin: 70px 0;
+  border-color: transparent;
+  margin: 70px 0;
 }
 
 p {
-    text-align: justify;
-    font-size: 16px;
-    line-height: 25px;
-    letter-spacing: 0.4px;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.4px;
 }
 
 h2, h3, h4 {
-    font-family: 'Abel', sans-serif;
-    text-align: center;
-    text-transform: uppercase;
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 h2 {
-    font-size: 32px;
-    letter-spacing: 2px;
+  font-size: 32px;
+  letter-spacing: 2px;
 }
 
-.letra h2,
-.letra h3 {
+.letra h2, .letra h3 {
   text-align: left;
   font-size: 38px;
 }
 
-
 .letra p {
-line-height: 30px;
+  line-height: 30px;
 }
 
 .showsList .col-md-2 {
-    font-family: 'Source Code Pro', monospace;
-    text-align: left;
+  font-family: 'Source Code Pro', monospace;
+  text-align: left;
 }
 
 .showsList {
-    font-size: 16px;
-    line-height: 48px;
+  font-size: 16px;
+  line-height: 48px;
 }
 
 .showsList .col-md-6 {
-    text-align: right;
+  text-align: right;
 }
 
-.discografia .disco {
-    margin: 40px 40px 60px 40px;
+.biografia .bio, .discografia .disco {
+  margin: 40px 40px 60px 40px;
 }
 
-.discografia .disco p:first-child {
-    margin-top: 20px;
+.biografia .biop:first-child, .discografia .disco p:first-child {
+  margin-top: 20px;
 }
 
-.disco h2 {
-    text-align: left;
-    margin-bottom: 50px;
+.bio h2, .disco h2 {
+  text-align: left;
+  margin-bottom: 50px;
 }
 
-.disco p {
-    line-height: 1.75em;
-    margin: 16px 0;
+.bio p, .disco p {
+  line-height: 1.75em;
+  margin: 16px 0;
 }
 
-.discografia .disco img {
-    border: 1px solid #333;
-    width: 400px;
-    height: 400px;
-    float: right;
-    background: #ccc;
+.biografia .bio img, .discografia .disco img {
+  border: 1px solid #333;
+  width: 400px;
+  height: 400px;
+  float: right;
+  background: #ccc;
 }
 
 img.fotoChange:hover, img.videoChange:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 img.fotoChange, img.videoChange {
-    width: 100%;
-    margin: 20px 5px;
-    cursor: pointer;
-    opacity: 0.6;
-    max-width: 22vw;
-    float: left;
+  width: 100%;
+  margin: 20px 5px;
+  cursor: pointer;
+  opacity: 0.6;
+  max-width: 22vw;
+  float: left;
 }
 
 .mainFoto img {
-    width: 100%;
+  width: 100%;
 }
 
 .mainFoto {
-    max-width: 100%;
-    margin: auto;
-    display: block;
-    height: 500px;
-    max-height: 80%;
+  max-width: 100%;
+  margin: auto;
+  display: block;
+  height: 500px;
+  max-height: 80%;
 }
 
-.visiteYoutube a {
-    color: rgba(255,255,255,.9);
-    text-align: center;
-    border: 2px solid White;
-    padding: 5px 10px;
-    margin: 5px auto;
-    display: table;
-    white-space: nowrap;
-    width: auto;
-    font-size: 12px;
-    font-weight: 500;
-    font-style: normal;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    height: 16px;
-    padding-bottom: 13px;
-    padding-left: 26px;
-    padding-right: 26px;
-    padding-top: 13px;
+.visiteLink a {
+  color: rgba(255, 255, 255, .9);
+  text-align: center;
+  border: 2px solid White;
+  padding: 5px 10px;
+  margin: 5px auto;
+  display: table;
+  white-space: nowrap;
+  width: auto;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  height: 16px;
+  padding-bottom: 13px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 13px;
 }
 
-.visiteYoutube a:hover {
-    background-color: rgba(255,255,255,.91);
-    color: #1d1d1d;
-    text-decoration: none;
+.visiteLink a:hover {
+  background-color: rgba(255, 255, 255, .91);
+  color: #1d1d1d;
+  text-decoration: none;
 }
 
 iframe#mainVideoPlayer {
-    width: 100%;
+  width: 100%;
 }
 
 section#contato p {
-    text-align: center;
-    margin: 30px 0 0 0;
+  text-align: center;
+  margin: 30px 0 0 0;
 }
-
-footer nav {
-    width: 170px;
-    margin: auto;
-    display: block;
-}
-
-footer {
-    text-align: center;
-    background: #531705;
-    padding: 90px 0 60px;
-    margin: 80px 0 0;
-}
-
-footer p {
-    text-align: center;
-    margin: 15px;
-}
-
-footer svg {
-    width: 32px;
-    height: 32px;
-    float: left;
-    margin: 5px;
-}
-
-@media (max-width: 991px) {
-    .showsList .col-md-6 {
-        border-bottom: 1px solid #ddd;
-        margin-bottom: 20px;
-    }
-
-    .showsList {
-        text-align: center;
-    }
-
-    .row.fotosList .col-md-2, .row.videosList .col-md-2 {
-        float: left;
-        padding: 0;
-    }
-
-    .discografia .disco img {
-        float: none;
-        display: block;
-        margin: auto;
-        background: #ccc;
-        max-width: 100%;
-        height: auto;
-    }
-
-    .mainFoto {
-        height: auto;
-    }
-}
-
-@media (min-width: 768px) {
-    ul.nav.navbar-nav.centered {
-        float: none !important;
-        margin: auto;
-        display: inline-block;
-    }
-
-    .collapse.navbar-collapse {
-        text-align: center;
-    }
-}
-
 
 .albery-container, .pagination-container {
-    max-width: 100% !important;
+  max-width: 100% !important;
 }
 
 .discografia .disco {
-    margin: 40px auto;
+  margin: 40px auto;
 }
+
 blockquote {
-    margin: 0;
-    padding: .5em 2.5em;
-    font-style: italic;
-    border-left: 1px solid #fff;
+  margin: 0;
+  padding: .5em 2.5em;
+  font-style: italic;
+  border-left: 1px solid #fff;
+}
+
+footer nav {
+  width: 170px;
+  margin: auto;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  background: #531705;
+  padding: 90px 0 60px;
+  margin: 80px 0 0;
+}
+
+footer p {
+  text-align: center;
+  margin: 15px;
+}
+
+footer svg {
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin: 5px;
+}
+
+@media (max-width: 991px) {
+  .showsList .col-md-6 {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  .showsList {
+    text-align: center;
+  }
+  .row.fotosList .col-md-2, .row.videosList .col-md-2 {
+    float: left;
+    padding: 0;
+  }
+  .discografia .disco img {
+    float: none;
+    display: block;
+    margin: auto;
+    background: #ccc;
+    max-width: 100%;
+    height: auto;
+  }
+  .mainFoto {
+    height: auto;
+  }
+  .biografia .bio img,
+  .discografia .disco img {
+    float: none;
+  }
+}
+
+@media (min-width: 768px) {
+  ul.nav.navbar-nav.centered {
+    float: none !important;
+    margin: auto;
+    display: inline-block;
+  }
+  .collapse.navbar-collapse {
+    text-align: center;
+  }
 }

@@ -11,3 +11,17 @@ $(".albery-container").albery({
   paginationBorder: 5,
   paginationItemWidth: 116
 });
+
+$('nav .nav a[href^="#"]').click(function () {
+  var section = $.attr(this, 'href').substr(1);
+  if (section == "home") {
+    sectionTop = 0;
+  } else {
+    sectionTop = $('section#' + section ).offset().top -100;
+  }
+    $('html, body').animate({
+        scrollTop: sectionTop
+    }, 500);
+
+    return false;
+});
